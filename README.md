@@ -7,7 +7,11 @@ coordinator appears to work fine.
 
 ## tl;dr;
 
-Don't create NSManagedObjects and then insert them into a child NSManagedObjectContext.
+Don't create NSManagedObjects and then insert them into an NSManagedObjectContext
+that has a parent.
+
+http://openradar.appspot.com/20667995
+rdar://20667995
 
 ## Rationale
 
